@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<!--Link to index style file-->
+	<link rel="stylesheet" media="all" href="style.css" type="text/css"/>
+	
+	<!--Define the character set to be UTF-8 -->
+	<meta charset="UTF-8">
+	<!--Make the website work on all devices and screen resolutions -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--Webpage title-->
+	<title>GEOG5990 Portfolio</title>
+</head>
+
+
+<body>
+	
+	<!--Start of navigation bar-->
+	<div class="header">
+		<h1>GEOG5990 Portfolio</h1>
+	</div>
+	
+	<!--Create navigation bar container-->
+	<div class="navbar">
+		<a href="index.html">Homepage</a> <!--active class is changed for each file so that the button is highlighted when on the corresponding page-->
+		<a class="active" href="abm.html">Agent-Based Modelling</a>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="container">
+		<div class="left-box">
+			<h1>ABM Source Code:</h1>
+			<p>The python source code can be found in this <a href="https://github.com/jgs-21/jgs-21-geog5990-portfolio">GitHub repository</a>.</p>
+			<p>When the code is run, a GUI will open in a pop-window where 'model' should be clicked on the menu bar and 'run model' should then be clicked to run the code to produce the model.</p>
+		</div>
+		
+		
+		<div class="right-box">
+			<figure>
+				<img class="text-wrap" src="abm.gif" alt="logo" width="600" height="600"/>
+				<figcaption>Figure 1. Final agent-based model produced by the source code.</figcaption>
+			</figure>
+			<h1>Agent-Based Modelling:</h1>
+			<div class="content"><p>An agent-based model is a computer model that attempts to capture the behaviour of autonomous agents within an environment.</p>
+			<p>Figure 1 shows the final model produced by the agent-based modelling source code I have created; whereby there are a number of agents interacting with their environment and one another.</p>
+			<p>The model produced by the source code does the following:</p>
+			<ul>
+				<li>builds agents in a space;</li>
+				<li>gets the agents to interact with each other;</li>
+				<li>reads in environmental data;</li>
+				<li>gets the agents to interact with the environment;</li>
+				<li>randomizes the order of agent actions (to reduce model artifacts);</li>
+				<li>displays the model as an animation;</li>
+				<li>is contained within a GUI;</li>
+				<li>is initialised with data from the web.</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="footer">
+		<p>&copy;jgs-21, University of Leeds, 2021</p>
+	</div>
+		
+	
+
+
+</body>
